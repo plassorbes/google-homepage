@@ -44,3 +44,15 @@ li {
 .right {
     float: right;
 }
+
+.navbar {
+    font-size: 12px;
+}
+
+.searchbar {
+    padding: 2em;
+}
+
+.searchbox input {
+    width: 400px;
+}
