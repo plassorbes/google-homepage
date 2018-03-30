@@ -1,1 +1,46 @@
-@import normalize.css;
+@import "normalize.css";
+
+* {
+    font-family: sans-serif;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#top {
+    padding-right: 1em;
+}
+
+#middle {
+    clear: both;
+    position: relative;
+    padding: 2em;
+    text-align: center;
+}
+
+#bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-right: 1em;
+    width: 100%;
+    background: #F2F2F2;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
